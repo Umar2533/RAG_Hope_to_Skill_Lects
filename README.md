@@ -53,20 +53,32 @@ This project demonstrates how to search documents based on meaning (not just key
   * `RecursiveCharacterTextSplitter`
   * `CharacterTextSplitter`
 * Visualizing how text is divided
-
+* 
 #### 🔹 Key Concepts:
 
 * Chunk size vs context quality
 * Overlap importance for retrieval accuracy
 * Token-aware splitting using `tiktoken`
+* 
+### 3  Embeddings Notebook
+
+**File:** `prac_hts_lec7_RAG_Embeddings.ipynb`
+# 🔍 Semantic Search System using Embeddings
+
+A simple and powerful **semantic search system** built using embeddings and cosine similarity.  
+This project demonstrates how to search documents based on **meaning (not exact keywords)**.
 
 ---
-**Features**
-Convert text into embeddings (vector representation)
-Perform semantic search using cosine similarity
-Retrieve top-k most relevant documents
-Beginner-friendly and easy to understand
-Extendable for AI chatbots & LLM applications
+
+## 🚀 Features
+
+- Convert text into embeddings (vector representation)
+- Perform semantic search using cosine similarity
+- Retrieve top-k most relevant documents
+- Simple and beginner-friendly implementation
+- Easily extendable for AI chatbots & LLM apps
+- 
+
 
 ## 🛠️ Technologies Used
 
