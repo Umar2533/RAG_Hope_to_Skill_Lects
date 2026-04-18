@@ -1,4 +1,4 @@
-# 📚 RAG Pipeline Practice (Data Loading & Text Splitting)
+# 📚 RAG Pipeline Practice (Data Loading & Text Splitting) $ Semantic Search System using Embeddings
 
 This repository contains hands-on practice notebooks for building the foundational components of a **Retrieval-Augmented Generation (RAG)** system using LangChain.
 
@@ -10,6 +10,8 @@ This project covers two critical steps of any RAG pipeline:
 
 1. **Data Loading** – Importing data from different sources
 2. **Text Splitting** – Breaking large text into manageable chunks for embeddings & retrieval
+3. **Semantic Search System using Embeddings** - A simple and powerful semantic search system built using embeddings and cosine similarity.
+This project demonstrates how to search documents based on meaning (not just keywords).
 
 ---
 
@@ -59,6 +61,12 @@ This project covers two critical steps of any RAG pipeline:
 * Token-aware splitting using `tiktoken`
 
 ---
+**Features**
+Convert text into embeddings (vector representation)
+Perform semantic search using cosine similarity
+Retrieve top-k most relevant documents
+Beginner-friendly and easy to understand
+Extendable for AI chatbots & LLM applications
 
 ## 🛠️ Technologies Used
 
@@ -67,7 +75,23 @@ This project covers two critical steps of any RAG pipeline:
 * BeautifulSoup
 * PyPDF
 * Tiktoken
+* NumPy
+* Scikit-learn
+* Sentence Transformers
 
+**🧠 ** How It Works ** 
+Convert all documents into embeddings
+Convert user query into embedding
+Compute cosine similarity between query & documents
+Return top matching results**
+
+**📁 Project Overview**
+
+This project includes:
+
+Embedding generation
+Semantic search function
+Query testing with different inputs
 ---
 
 ## ⚙️ Installation
@@ -106,9 +130,18 @@ These notebooks are part of a larger RAG system. Future steps include:
 
 * SitemapLoader is included for reference but not used due to performance constraints
 * Chunking strategy directly impacts model performance — experiment wisely
-
 ---
-
+💡 **Use Cases**
+AI Chatbots
+FAQ Systems
+Document Search
+WhatsApp AI Assistants
+Medical / Radiology Report Search
+🔮 **Future Improvements**
+Add FAISS / Chroma (vector database)
+Build FastAPI backend
+Integrate with LLMs
+Add UI (Streamlit / React)
 ## 👨‍💻 Author
 
 **DS**
