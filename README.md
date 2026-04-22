@@ -1,6 +1,7 @@
-# 📚 RAG Pipeline Practice (Data Loading & Text Splitting) $ Semantic Search System using Embeddings
+# 📚 RAG Pipeline Practice (Data Loading & Text Splitting) $ Semantic Search System using Embeddings $ & Retrievers
 
 This repository contains hands-on practice notebooks for building the foundational components of a **Retrieval-Augmented Generation (RAG)** system using LangChain.
+implementation of Retrieval-Augmented Generation (RAG) using semantic search and retrievers. It builds on previous concepts of embeddings and vector databases to create a more advanced and efficient information retrieval system.
 
 ---
 
@@ -12,6 +13,8 @@ This project covers two critical steps of any RAG pipeline:
 2. **Text Splitting** – Breaking large text into manageable chunks for embeddings & retrieval
 3. **Semantic Search System using Embeddings** - A simple and powerful semantic search system built using embeddings and cosine similarity.
 This project demonstrates how to search documents based on meaning (not just keywords).
+4. **Implementation of Retrievers & Improving search relevance using RAG**
+
 
 ---
 
@@ -124,6 +127,7 @@ After completing these notebooks, you will understand:
 * How to structure documents for LLM pipelines
 * How to split text efficiently for embeddings
 * How chunk size and overlap affect retrieval performance
+* 
 
 ---
 
@@ -154,6 +158,77 @@ Add FAISS / Chroma (vector database)
 Build FastAPI backend
 Integrate with LLMs
 Add UI (Streamlit / React)
+
+**LEC 9**
+
+📘 Lecture 9: RAG with Semantic Search & Retrievers
+
+This project demonstrates the implementation of Retrieval-Augmented Generation (RAG) using semantic search and retrievers. It builds on previous concepts of embeddings and vector databases to create a more advanced and efficient information retrieval system.
+
+🚀 What This Project Covers
+🔹 Semantic Search using embeddings
+🔹 Document indexing and retrieval
+🔹 Implementation of Retrievers
+🔹 Improving search relevance using RAG
+🔹 Query-to-context pipeline
+🧠 Key Concepts
+1. Semantic Search
+
+Instead of keyword matching, this system finds documents based on meaning using vector embeddings.
+
+2. Retrievers
+
+Retrievers are responsible for:
+
+Fetching the most relevant documents
+Reducing irrelevant or redundant results
+Improving response quality in RAG systems
+3. RAG (Retrieval-Augmented Generation)
+
+Combines:
+
+Retriever (search relevant docs)
+LLM (generate answer)
+📂 Project Structure
+Lecture-9/
+│
+├── prac_hts_lec9_RAG_Semantic_Search_Retrievers.ipynb
+├── data/ (if used)
+└── README.md
+⚙️ Technologies Used
+Python 🐍
+Sentence Transformers
+Vector Embeddings
+(Optional) Qdrant / FAISS
+LangChain (if used)
+🔍 How It Works
+Documents are converted into embeddings
+User query is also converted into embedding
+Similarity search is performed
+Top relevant documents are retrieved
+Results can be passed to LLM for final response
+▶️ How to Run
+Install dependencies:
+pip install sentence-transformers
+Open Jupyter Notebook:
+jupyter notebook
+Run:
+prac_hts_lec9_RAG_Semantic_Search_Retrievers.ipynb
+📌 **Learning Outcome**
+Understand how semantic search works
+Build a basic RAG pipeline
+Use retrievers for better search results
+Reduce redundancy in search
+
+**AI Developer | LLM Deployment | Python | FastAPI**
+Building intelligent systems using RAG, embeddings, and vector databases
+
+⭐ **Future Improvements**
+Add reranking models
+Integrate with real LLM APIs
+Build production-level RAG system
+
+
 ## 👨‍💻 Author
 
 **DS**
