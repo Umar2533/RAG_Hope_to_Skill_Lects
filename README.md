@@ -1,4 +1,4 @@
-# 📚 RAG Pipeline Practice (Data Loading & Text Splitting) $ Semantic Search System using Embeddings $ & Retrievers
+# 📚 RAG Pipeline Practice (Data Loading & Text Splitting) & Semantic Search System using Embeddings & Retrievers
 
 This repository contains hands-on practice notebooks for building the foundational components of a **Retrieval-Augmented Generation (RAG)** system using LangChain.
 implementation of Retrieval-Augmented Generation (RAG) using semantic search and retrievers. It builds on previous concepts of embeddings and vector databases to create a more advanced and efficient information retrieval system.
@@ -128,8 +128,6 @@ After completing these notebooks, you will understand:
 * How to split text efficiently for embeddings
 * How chunk size and overlap affect retrieval performance
 * 
-
----
 
 ## 🔗 Next Steps
 
