@@ -185,11 +185,8 @@ Reducing irrelevant or redundant results
 Improving response quality in RAG systems
 3. RAG (Retrieval-Augmented Generation)
 
-Combines:
-
 Retriever (search relevant docs)
-LLM (generate answer)
-📂 Project Structure
+
 Lecture-9/
 │
 ├── prac_hts_lec9_RAG_Semantic_Search_Retrievers.ipynb
@@ -214,7 +211,7 @@ Open Jupyter Notebook:
 jupyter notebook
 Run:
 prac_hts_lec9_RAG_Semantic_Search_Retrievers.ipynb
-📌 **Learning Outcome**
+
 Understand how semantic search works
 Build a basic RAG pipeline
 Use retrievers for better search results
